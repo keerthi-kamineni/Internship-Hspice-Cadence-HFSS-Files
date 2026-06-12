@@ -1,0 +1,26 @@
+* "simulator" "HSPICE" 
+* "version" "O-2018.09-2 linux64"
+* "format" "HSP"
+* "rundate" "08:51:54 06/12/2026 "
+* "netlist" "Defected-cg-cl.sp "
+* "runtitle" ".temp25"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   0.            
++ 2 =   0.            
++ 3 =   0.            
++ 4 =   0.            
++ 5 =   0.            
++ 6 =   0.            
++ 7 =   0.            
++ 8 =   0.            
++ 9 =   0.            
++ 10 =   0.            
++ 11 =   0.            
++ 12 =   0.            
++ 13 =   0.            
+***   END: Saved Operating Point ***                     

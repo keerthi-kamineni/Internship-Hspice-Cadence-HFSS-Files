@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='O-2018.09-2 linux64' PARAM_COUNT=0
+.TITLE '.temp25'
+ tr               tf               pavg             temper          
+ alter#          
+  3.981e-23       -3.085e-22        1.931e-25         25.0000       
+1               
