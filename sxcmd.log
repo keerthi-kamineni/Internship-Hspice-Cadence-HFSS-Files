@@ -1,6 +1,6 @@
 ### Custom WaveView ADV log file, revision N-2017.12-SP2 (build May 31, ) ###
-### created at 08:51:58 on Fri Jun 12 2026 (Linux AMD64) ###
-### Host Name: pc14   User ID: vlsi   PID: 29997   ###
+### created at 08:59:50 on Fri Jun 12 2026 (Linux AMD64) ###
+### Host Name: pc14   User ID: vlsi   PID: 2242   ###
 wv_start_log
 # (0) running in waveview only mode
 # (0) SW_SX_PERL_LIB defined
@@ -11,47 +11,34 @@ wv_resize_window {Custom WaveView} 800 586
 wv_move_window {Custom WaveView} {} 85 115
 wv_resize_window {Custom WaveView} 800 400
 wv_select_window {Custom WaveView} 
-wv_move_window {Custom WaveView} {} -10 20
+wv_move_window {Custom WaveView} {} 85 103
 wv_resize_window {Custom WaveView} 800 586
+wv_move_window {Custom WaveView} {} -10 20
 wv_resize_window {Custom WaveView} 1366 669
 wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
 wv_move_window {FileDialog} {} 479 36
 wv_select_dialog {FileDialog} 
-wv_select_list_item {FileDialog} {} {FileList} {Defected-cg-cl.tr0} 7
+wv_select_list_item {FileDialog} {} {FileList} {Defected-cg-our.tr0} 7
 wv_press_button {FileDialog} {} {Ok} 
-wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Defected-cg-cl.tr0(0)} {0} {+sep=@}
-wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:Defected-cg-cl.tr0(0)} {+sep=@}
-wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Defected-cg-cl.tr0(0)} {0} {+sep=@}
-wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Defected-cg-cl.tr0(0)@toplevel(0)} {0} {+sep=@}
-wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Defected-cg-cl.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Defected-cg-our.tr0(0)} {0} {+sep=@}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:Defected-cg-our.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Defected-cg-our.tr0(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Defected-cg-our.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Defected-cg-our.tr0(0)@toplevel(0)} {0} {+sep=@}
 wv_select_list_item {Custom WaveView} {} {sigview} {v(1)} 4
 wv_dclick_list_item {Custom WaveView} {} {sigview} {v(1)} 4
 wv_select_list_item {Custom WaveView} {} {sigview} {v(10)} 5
 wv_dclick_list_item {Custom WaveView} {} {sigview} {v(10)} 5
 wv_select_list_item {Custom WaveView} {} {sigview} {par(v(1)*i(vin))} 2
 wv_dclick_list_item {Custom WaveView} {} {sigview} {par(v(1)*i(vin))} 2
+wv_select_list_item {Custom WaveView} {} {sigview} {i(l2)} 0
+wv_dclick_list_item {Custom WaveView} {} {sigview} {i(l2)} 0
+wv_select_list_item {Custom WaveView} {} {sigview} {i(vin)} 1
+wv_select_list_item {Custom WaveView} {} {sigview} {i(vin)} 1
 wv_select_list_item {Custom WaveView} {} {sigview} {i(vin)} 1
 wv_dclick_list_item {Custom WaveView} {} {sigview} {i(vin)} 1
-wv_select_combox_item {Custom WaveView} {} {SignalType} "Current" 2
-wv_select_list_item {Custom WaveView} {} {sigview} {i(l2)} 0
-wv_select_list_item {Custom WaveView} {} {sigview} {i(l2)} 0
-wv_dclick_list_item {Custom WaveView} {} {sigview} {i(l2)} 0
-wv_select_list_item {Custom WaveView} {} {sigview} {i(l2)} 0
-wv_dclick_list_item {Custom WaveView} {} {sigview} {i(l2)} 0
-wv_select_list_item {Custom WaveView} {} {sigview} {i(l2)} 0
-wv_dclick_list_item {Custom WaveView} {} {sigview} {i(l2)} 0
 wv_select_waveview 1 {waveview 1}
-wv_select_wv_item WV1.PANEL5:1.LEGEND
-wv_drag_item_to WV1 27 287
-wv_select_panel WV1.PANEL5:1.LEGEND
-wv_select_waveview 1 {waveview 1}
-wv_ctrl_select_panel WV1.PANEL6:1.LEGEND
-wv_select_waveview 1 {waveview 1}
-wv_ctrl_select_panel WV1.PANEL7:1.LEGEND
-wv_select_waveview 1 {waveview 1}
-wv_waveview_context_menu WV1.PANEL7:1.LEGEND
-wv_select_waveview 1 {waveview 1}
-wv_waveview_context_menu WV1.PANEL6:1 1.69263e-08 -7.69231e-08
+wv_waveview_context_menu WV1.PANEL4:1.LEGEND
 wv_select_waveview 1 {waveview 1}
 wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Delete} 
 wv_move_window {Confirmation} {} 591 316
