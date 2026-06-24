@@ -3,7 +3,7 @@
  lic:
  lic: FLEXlm: SDK_11.6.9.6
  lic: USER:   vlsi                 HOSTNAME: pc14
- lic: HOSTID: ecaaa01bdeb1         PID:      28056
+ lic: HOSTID: ecaaa01bdeb1         PID:      25239
  lic: Using FLEXlm license file:
  lic: 27020@172.16.61.220
  lic: Checkout 1 hspice
@@ -24,19 +24,19 @@
        re-order matrix -- done, cpu clock= 4.00E-02 peak memory=     275 mb
  init: end setup matrix, cpu clock= 4.00E-02 peak memory=     275 mb
  dcop: begin dcop, cpu clock= 4.00E-02
- dcop: end dcop, cpu clock= 4.00E-02 peak memory=     275 mb tot_iter=       4
+ dcop: end dcop, cpu clock= 4.00E-02 peak memory=     275 mb tot_iter=       5
  output: CT_170626.tr0
  sweep: tran tran0    begin, stop_t=  1.00E-07 #sweeps=**** cpu clock= 4.00E-02
- tran: time= 1.0000E-08 tot_iter=      96 conv_iter=      39 cpu clock= 4.00E-02
- tran: time= 2.0000E-08 tot_iter=     200 conv_iter=      81 cpu clock= 5.00E-02
- tran: time= 3.0000E-08 tot_iter=     290 conv_iter=     118 cpu clock= 5.00E-02
- tran: time= 4.0000E-08 tot_iter=     391 conv_iter=     159 cpu clock= 5.00E-02
- tran: time= 5.0000E-08 tot_iter=     498 conv_iter=     201 cpu clock= 6.00E-02
- tran: time= 6.0000E-08 tot_iter=     593 conv_iter=     239 cpu clock= 6.00E-02
- tran: time= 7.0000E-08 tot_iter=     694 conv_iter=     280 cpu clock= 6.00E-02
- tran: time= 8.0050E-08 tot_iter=     803 conv_iter=     323 cpu clock= 6.00E-02
- tran: time= 9.0000E-08 tot_iter=     896 conv_iter=     360 cpu clock= 7.00E-02
- tran: time= 1.0000E-07 tot_iter=     997 conv_iter=     401 cpu clock= 7.00E-02
- sweep: tran tran0    end, cpu clock= 7.00E-02 peak memory=     275 mb
+ tran: time= 1.0000E-08 tot_iter=     143 conv_iter=      62 cpu clock= 4.00E-02
+ tran: time= 2.0000E-08 tot_iter=     291 conv_iter=     126 cpu clock= 5.00E-02
+ tran: time= 3.0000E-08 tot_iter=     438 conv_iter=     190 cpu clock= 5.00E-02
+ tran: time= 4.0000E-08 tot_iter=     585 conv_iter=     254 cpu clock= 6.00E-02
+ tran: time= 5.0000E-08 tot_iter=     732 conv_iter=     318 cpu clock= 6.00E-02
+ tran: time= 6.0000E-08 tot_iter=     878 conv_iter=     382 cpu clock= 6.00E-02
+ tran: time= 7.0000E-08 tot_iter=    1024 conv_iter=     446 cpu clock= 7.00E-02
+ tran: time= 8.0050E-08 tot_iter=    1172 conv_iter=     511 cpu clock= 7.00E-02
+ tran: time= 9.0000E-08 tot_iter=    1316 conv_iter=     574 cpu clock= 7.00E-02
+ tran: time= 1.0000E-07 tot_iter=    1462 conv_iter=     638 cpu clock= 8.00E-02
+ sweep: tran tran0    end, cpu clock= 8.00E-02 peak memory=     275 mb
 >info:         ***** hspice job concluded
  lic: Release hspice token(s)
