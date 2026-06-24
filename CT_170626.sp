@@ -4,7 +4,7 @@
 ***Supply***
 V1a g 0 pulse(0 0.8 0 100p 100p 5n 10n)
 Vdd x 0 0.8
-V1v y 0 pulse(0 0.8 0 100p 100p 5n 10n)
+V1v y 0 pulse(0.8 0 0 100p 100p 5n 10n)
 
 **driver**
 Mpa 1 G X X pmos w=88n l=22n
