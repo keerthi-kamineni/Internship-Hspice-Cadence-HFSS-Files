@@ -1,7 +1,7 @@
 * "simulator" "HSPICE" 
 * "version" "O-2018.09-2 linux64"
 * "format" "HSP"
-* "rundate" "08:17:37 06/17/2026 "
+* "rundate" "08:37:49 06/17/2026 "
 * "netlist" "CT_170626.sp "
 * "runtitle" ".temp 27"
 * time =    0.            
@@ -15,10 +15,10 @@
 + 3 = 799.9776m       
 + 4 =   0.            
 + 5 =   0.            
-+ 6 = 799.9776m       
-+ 7 = 799.9776m       
-+ 8 = 799.9776m       
++ 6 =  53.5479u       
++ 7 =  53.5479u       
++ 8 =  53.5479u       
 + g =   0.            
 + x = 800.0000m       
-+ y =   0.            
++ y = 800.0000m       
 ***   END: Saved Operating Point ***                     
