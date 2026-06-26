@@ -1,0 +1,25 @@
+* "simulator" "HSPICE" 
+* "version" "O-2018.09-2 linux64"
+* "format" "HSP"
+* "rundate" "10:22:47 06/18/2026 "
+* "netlist" "noise-delay-rlp.sp "
+* "runtitle" ".temp 27"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 = 799.9776m       
++ 2 = 799.9776m       
++ 3 = 799.9776m       
++ 4 =   0.            
++ 5 =   0.            
++ 6 =   1.0000        
++ 7 =   1.0000        
++ 8 =   1.0000        
++ 9 =   0.            
++ 10 =   0.            
++ g =   0.            
++ x = 800.0000m       
+***   END: Saved Operating Point ***                     
