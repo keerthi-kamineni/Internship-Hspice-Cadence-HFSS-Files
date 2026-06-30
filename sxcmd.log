@@ -1,6 +1,6 @@
 ### Custom WaveView ADV log file, revision N-2017.12-SP2 (build May 31, ) ###
-### created at 07:06:38 on Thu Jun 18 2026 (Linux AMD64) ###
-### Host Name: pc14   User ID: vlsi   PID: 16735   ###
+### created at 07:18:31 on Thu Jun 18 2026 (Linux AMD64) ###
+### Host Name: pc14   User ID: vlsi   PID: 6879   ###
 wv_start_log
 # (0) running in waveview only mode
 # (0) SW_SX_PERL_LIB defined
@@ -16,21 +16,15 @@ wv_move_window {Custom WaveView} {} -10 20
 wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
 wv_move_window {FileDialog} {} 479 36
 wv_select_dialog {FileDialog} 
-wv_select_list_item {FileDialog} {} {FileList} {delay-noise-cgp.tr0} 5
+wv_select_list_item {FileDialog} {} {FileList} {inphasect-cgp.tr0} 5
 wv_press_button {FileDialog} {} {Ok} 
-wv_select_tree_item {Custom WaveView} {} {hierview} {D0:delay-noise-cgp.tr0(0)} {0} {+sep=@}
-wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:delay-noise-cgp.tr0(0)} {+sep=@}
-wv_select_tree_item {Custom WaveView} {} {hierview} {D0:delay-noise-cgp.tr0(0)} {0} {+sep=@}
-wv_select_tree_item {Custom WaveView} {} {hierview} {D0:delay-noise-cgp.tr0(0)@toplevel(0)} {0} {+sep=@}
-wv_select_tree_item {Custom WaveView} {} {hierview} {D0:delay-noise-cgp.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:inphasect-cgp.tr0(0)} {0} {+sep=@}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:inphasect-cgp.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:inphasect-cgp.tr0(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:inphasect-cgp.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:inphasect-cgp.tr0(0)@toplevel(0)} {0} {+sep=@}
 wv_select_list_item {Custom WaveView} {} {sigview} {v(1)} 6
 wv_dclick_list_item {Custom WaveView} {} {sigview} {v(1)} 6
-wv_select_list_item {Custom WaveView} {} {sigview} {v(3)} 9
-wv_select_list_item {Custom WaveView} {} {sigview} {v(3)} 9
-wv_select_list_item {Custom WaveView} {} {sigview} {v(3)} 9
-wv_dclick_list_item {Custom WaveView} {} {sigview} {v(3)} 9
-wv_select_list_item {Custom WaveView} {} {sigview} {v(8)} 14
-wv_press_tool_button {Custom WaveView} {} {NewWaveView0} 
 wv_select_list_item {Custom WaveView} {} {sigview} {v(8)} 14
 wv_dclick_list_item {Custom WaveView} {} {sigview} {v(8)} 14
 wv_press_tool_button {Custom WaveView} {} {NewWaveView0} 
@@ -40,68 +34,54 @@ wv_select_tab {Custom WaveView} {} {WVTab} {waveview 1:1}
 wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
 wv_move_window {MeasurementTool} {} 338 22
 wv_select_dialog {MeasurementTool} 
+wv_close_dialog {MeasurementTool} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_move_window {MeasurementTool} {} 338 22
+wv_select_dialog {MeasurementTool} 
+wv_move_scrollbar {MeasurementTool} {} {TypeList.VScrollBar} {5}
+wv_move_scrollbar {MeasurementTool} {} {TypeList.VScrollBar} {2}
+wv_move_scrollbar {MeasurementTool} {} {TypeList.VScrollBar} {0}
+wv_select_tree_item {MeasurementTool} {} {TypeList} {Time Domain.Delay} {0} {+sep=.}
 wv_resize_window {MeasurementTool} 670 671
+wv_move_window {MeasurementTool} {} 338 58
+wv_select_combox_item {MeasurementTool} {} {RefSignal} "v(1) inphasect-cgp.tr0" 0
+wv_select_combox_item {MeasurementTool} {} {Signal} "v(8) inphasect-cgp.tr0" 1
+wv_set_radion {MeasurementTool} {} {RiseEdge} 
+wv_close_dialog {MeasurementTool} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_move_window {MeasurementTool} {} 338 22
+wv_select_dialog {MeasurementTool} 
+wv_resize_window {MeasurementTool} 670 671
+wv_select_combox_item {MeasurementTool} {} {RefSignal} "v(1) inphasect-cgp.tr0" 0
+wv_select_combox_item {MeasurementTool} {} {Signal} "v(8) inphasect-cgp.tr0" 1
 wv_set_radion {MeasurementTool} {} {RiseEdge} 
 wv_press_button {MeasurementTool} {} {Ok} 
 wv_select_window {Custom WaveView} 
 wv_select_waveview 1 {waveview 1}
-wv_waveview_context_menu WV1.MEAS1
-wv_select_waveview 1 {waveview 1}
-wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
-wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
-wv_move_window {MeasurementTool} {} 338 22
-wv_select_dialog {MeasurementTool} 
-wv_resize_window {MeasurementTool} 670 671
-wv_select_combox_item {MeasurementTool} {} {RefSignal} "v(1) delay-noise-cgp.tr0" 0
-wv_select_combox_item {MeasurementTool} {} {Signal} "v(3) delay-noise-cgp.tr0" 1
-wv_press_button {MeasurementTool} {} {Ok} 
-wv_select_window {Custom WaveView} 
-wv_select_waveview 1 {waveview 1}
 wv_select_wv_item WV1.MEAS1
-wv_drag_item_to WV1 461 291
-wv_move_wv_item WV1.MEAS1 408 73
+wv_drag_item_to WV1 458 303
+wv_move_wv_item WV1.MEAS1 397 95
 wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
 wv_move_window {MeasurementTool} {} 338 22
 wv_select_dialog {MeasurementTool} 
 wv_resize_window {MeasurementTool} 670 671
-wv_select_combox_item {MeasurementTool} {} {RefSignal} "v(1) delay-noise-cgp.tr0" 0
-wv_select_combox_item {MeasurementTool} {} {Signal} "v(3) delay-noise-cgp.tr0" 1
+wv_select_combox_item {MeasurementTool} {} {RefSignal} "v(1) inphasect-cgp.tr0" 0
+wv_select_combox_item {MeasurementTool} {} {Signal} "v(8) inphasect-cgp.tr0" 1
 wv_set_radion {MeasurementTool} {} {FallEdge} 
 wv_press_button {MeasurementTool} {} {Ok} 
 wv_select_window {Custom WaveView} 
 wv_select_waveview 1 {waveview 1}
 wv_select_wv_item WV1.MEAS2
-wv_drag_item_to WV1 499 305
-wv_move_wv_item WV1.MEAS2 624 81
+wv_drag_item_to WV1 493 309
+wv_move_wv_item WV1.MEAS2 621 86
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 646 108
+wv_move_wv_item WV1.MEAS2 664 97
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 731 111
+wv_move_wv_item WV1.MEAS2 439 152
 wv_select_tab {Custom WaveView} {} {WVTab} {waveview 2:2}
-wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
-wv_move_window {MeasurementTool} {} 338 22
-wv_select_dialog {MeasurementTool} 
-wv_resize_window {MeasurementTool} 670 671
-wv_move_scrollbar {MeasurementTool} {} {TypeList.VScrollBar} {3}
-wv_move_scrollbar {MeasurementTool} {} {TypeList.VScrollBar} {6}
-wv_move_scrollbar {MeasurementTool} {} {TypeList.VScrollBar} {9}
-wv_move_scrollbar {MeasurementTool} {} {TypeList.VScrollBar} {12}
-wv_move_scrollbar {MeasurementTool} {} {TypeList.VScrollBar} {15}
-wv_move_scrollbar {MeasurementTool} {} {TypeList.VScrollBar} {18}
-wv_select_tree_item {MeasurementTool} {} {TypeList} {Level.Peak to Peak} {0} {+sep=.}
-wv_press_button {MeasurementTool} {} {Ok} 
-wv_select_window {Custom WaveView} 
-wv_select_waveview 2 {waveview 2}
-wv_select_wv_item WV2.MEAS1
-wv_drag_item_to WV2 523 162
-wv_move_wv_item WV2.MEAS1 580 139
-wv_select_tab {Custom WaveView} {} {WVTab} {waveview 1:1}
-wv_select_tab {Custom WaveView} {} {WVTab} {waveview 2:2}
-wv_select_window {Custom WaveView} 
-wv_select_tab {Custom WaveView} {} {WVTab} {waveview 3:3}
-wv_select_tab {Custom WaveView} {} {WVTab} {waveview 2:2}
-wv_select_tab {Custom WaveView} {} {WVTab} {waveview 1:1}
-wv_select_tab {Custom WaveView} {} {WVTab} {waveview 2:2}
-wv_select_tab {Custom WaveView} {} {WVTab} {waveview 3:3}
-wv_select_window {Custom WaveView} 
-wv_close_window {Custom WaveView} 
-wv_move_window {Confirmation} {} 591 316
-wv_select_dialog {Confirmation} 
-#wv_press_button {Confirmation} {} {Ok} 
-#*WARNING* Can not remove '/home/vlsi/.cx_hostport/.cx_hostport_pc14_16735'.
