@@ -1,0 +1,5 @@
+$DATA1 SOURCE='HSPICE' VERSION='O-2018.09-2 linux64' PARAM_COUNT=0
+$OPTION MEASFORM=3
+.TITLE '*defectfree'
+peak_noise_out1,vin1_max,vin1_min,vin1_mid,vout1_max,vout1_min,vout1_mid,tplh1,tphl1,t_propagation_delay1,temper,alter#
+ 1.835e-04,   0.7000,   0.,   0.3500,   0.7008,-9.618e-03,   0.3456, 4.246e-11, 4.776e-11, 4.511e-11,  25.0000,1
